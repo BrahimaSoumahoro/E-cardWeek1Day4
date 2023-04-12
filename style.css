@@ -1,0 +1,163 @@
+h1{
+    ;
+}
+
+title   {
+        padding: 30px;
+}
+
+
+
+body{
+        background-image: url(background.jpg);
+        background-repeat: repeat-x;
+        background-color: #d6d6d6;
+        
+        
+}
+.header {
+        padding: 0px;
+        background-position-y: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+         
+    
+}
+
+p       {
+        text-align: left;
+        color: blue;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        flex-flow: column wrap;
+        
+}
+
+span {
+        color: red;
+        margin-left: .25em;
+        margin-right: .25em;
+
+}
+
+div.nycstartups {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+}
+
+.content-1 {
+
+        font-size: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+        z-index: 1;
+}
+
+
+div.courage {
+        /* position:static; */
+        left: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        
+}
+
+.content-2 {
+
+        font-size: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+        z-index: 1;
+}
+
+/* .archive        {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-self: flex-end;
+} */
+
+.editor {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+}
+
+h3      {
+        color:yellow;
+        display: flex;
+        flex-direction: row;
+        left: 10000px;
+}
+
+.blank  {
+        background-color:blueviolet;
+        width: 1005px;
+        height: 1000px;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        z-index: -1;
+        left: 250px;
+        top: 250px;
+}
+
+.blank-1        {
+        background-color: orange;
+        width: 270px;
+        height: 700px;
+        top: 250px;
+        position: absolute;
+        left: 1275px;
+        z-index: -1;
+
+}
+
+/* #parent {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 30px;
+        top: -25px;
+        
+}
+
+.imgs   {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 10px;
+        width: 200px;
+        top: -1500px;
+        left: 1290px;
+        z-index: 1;
+        
+}
+
+img     {
+        padding: 10px;
+        z-index: 1;
+}
+
+footer  {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+}
